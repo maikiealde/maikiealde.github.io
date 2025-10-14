@@ -16,10 +16,6 @@
     background-color:  #f86d72;
 }
 
-
-
-
-
 .section-header {
             display: flex;
             justify-content: space-between;
@@ -61,63 +57,57 @@
   font-size: 30px;
 }
 
-
-
-
-
 .list-card {
-            border-radius: 10px;
-        }
+  border-radius: 10px;
+}
 
-        .list-card hr {
+.list-card hr {
             color: #f0f0f0;
-        }
+}
 
   
-        .list-card hr:last-of-type {
-            display: none;
-        }
+.list-card hr:last-of-type {
+  display: none;
+}
 
-        .list-item {
-            display: flex;
-            align-items: center;
-            padding: 0.75rem 0;
-        }
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0;
+}
 
-        .list-item img {
-            width: 60px;
-            height: auto;
-            border-radius: 4px;
-            margin-right: 1.25rem; 
-            flex-shrink: 0; 
-        }
+ .list-item img {
+    width: 60px;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 1.25rem; 
+    flex-shrink: 0; 
+  }
 
-        .list-item-info .title {
-            font-weight: 600;
-            font-size: 1.1rem;
-            margin-bottom: 0.1rem;
-            color: var(--text-dark);
-        }
+.list-item-info .title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.1rem;
+  color: var(--text-dark);
+}
 
-        .list-item-info .author {
-            font-size: 0.9rem;
-            color: var(--text-light);
-            margin-bottom: 0.25rem;
-        }
+.list-item-info .author {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-bottom: 0.25rem;
+}
 
-        .list-item-info .price {
-            font-weight: 700;
-            font-size: 1.1rem;
-            color: var(--primary-color);
-        }
+.list-item-info .price {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
 
-
-
-        .category-card {
-            position: relative;
-            overflow: hidden;
-            border-radius: 10px;
-        }
+.category-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
 
 .category-card .category-name {
     position: absolute;
@@ -134,9 +124,7 @@
 .list{
   text-decoration: none;
 }
-
-
-      
+    
 .list {
   list-style: none;  
   padding-left: 0;
